@@ -1,20 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<title>Johan Risch</title>
-		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-		<!-- Optional theme -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
-		<!-- Latest compiled and minified JavaScript -->
-	</head>
-	<body>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-		<div class="row">
-			<div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-10 col-sm-offset-1 col-xs-12">
-				<h2>Hello world!</h2>
-			</div>
-		</div>
-	</body>
-</html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Johan Risch</title>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:100,300,700,300italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+    <!-- Latest compiled and minified JavaScript -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <link type="text/css" rel="stylesheet" href="sh_styles.css">
+  </head>
+  <body onload="sh_highlightDocument();">
+    <div class="container">
+      <div class="row header-row">
+        <div class="col-lg-4 col-lg-offset-4 header_row__picture-container">
+          <img class="header-row__picture" src="https://lh3.googleusercontent.com/-8irm2nJoeFM/U7hYkk5CLTI/AAAAAAAAG88/YzwVbl1Qxfg/w716-h715-no/IMG_0145.JPG"/>
+        </div>
+        <h2 class="col-lg-4 col-lg-offset-4 header-row__title">ezModules</h2>
+      </div>
+      <div class="row content-post">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 col-lg-offset-3 col-md-offset-3">
+          <div class="content-post__bread-text">
+            I've piled up a few programs that's almost a complete module/library. My goal is to go the final yards towards making them good enough for public use. The mantra when doing these libraries will be that there should be a minimal need for configurations to get started but full configuration capabilities available if required. In other words, getting started should be one line of code but utilizing the full potential should still be possible with a bit more work.
+            
+          </div>
+          
+        </div>
+      </div>
+      <div class="row content-post">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 col-lg-offset-3 col-md-offset-3">
+          <div class="content-post__header">
+            <h2>ezList</h2>
+            
+          </div>
+          <div class="content-post__bread-text">
+            <strong>ezList</strong> is a javascript library meant for sites with large tables (both a lot of rows and columns). Check out the <b><a href="http://johanrisch.github.io/ezList/index2.html">simple configuration demo</a></b> and the <b><a href="http://johanrisch.github.io/ezList/">advanced configuration demo</a></b>or you can get the source directly from <b><a href="http://github.com/johanrisch/ezList">Github</a></b>
+            <br/><br/><a href="ezList.html">Read more...</a>
+          </div>
+          
+        </div>
+      </div>
+      <div class="row content-post">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 col-lg-offset-3 col-md-offset-3">
+          <div class="content-post__header">
+            <h2>ezRest</h2>
+            
+          </div>
+          <div class="content-post__bread-text">
+            <strong>ezRest</strong> is an Android library that has two components, one module that let's you post tasks on background threads, derived from <b><a href="https://github.com/johanrisch/ICDispatch">ICDispatch</a></b>, combined with a fully fledged framework for sending http requests.
+            <br/><br/><a href="ezRest.html">Read more...</a>
+          </div>
+          
+        </div>
+      </div>
+      <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="sh_javascript.js"></script>
+      <script type="text/javascript" src="sh_main.min.js"></script>
+    </body>
+  </html>

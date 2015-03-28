@@ -1,0 +1,30 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+.header-row{
+	margin-top: 2em;
+	text-align: center;
+}
+.header_row__picture-container{
+
+}
+
+.header-row__picture{
+
+	display:block;
+	border-radius: 50%;
+	overflow: hidden;
+	width:150px;
+	margin:auto;
+	height:150px;
+	padding:0;
+}
+.header-row__title{
+	text-align: center;
+}
+.content-post__header{
+	text-align: center;
+}
+.content-post__bread-text{
+	text-align: justify;
+}
